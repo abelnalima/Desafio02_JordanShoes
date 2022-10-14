@@ -182,3 +182,43 @@ main li div {
         height: 100px;
     }
 }
+
+@media (max-width: 425px) {
+    main h2 {
+        padding-top: 50px;
+        font-size: 28px;
+    }
+    
+    main p {
+        max-width: 400px;
+
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .main__catalogo {
+        padding-top: 59px;
+        padding-bottom: 50px;
+    }
+    
+    .main__catalogo ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .main__catalogo li {
+        width: 374px;
+        height: 302px;
+    }
+    
+    main li div {
+        width: 250px;
+        height: 150px;
+
+        padding: 76px 62px;
+    }
+}

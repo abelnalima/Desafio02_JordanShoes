@@ -20,3 +20,9 @@ body {
         height: 1250px;
     }
 }
+
+@media (max-width: 425px) {
+    body {
+        height: 3460px;
+    }
+}
