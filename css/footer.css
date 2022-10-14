@@ -16,3 +16,14 @@ footer p {
 
     color: var(--white);
 }
+
+@media (max-width: 1024px) {
+    footer {
+        height: 40px;
+    }
+
+    footer p {
+        font-size: 16px;
+        line-height: 196.19%;
+    }
+}

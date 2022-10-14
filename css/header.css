@@ -86,3 +86,42 @@ header {
 
     color: var(--white);
 }
+
+@media (max-width: 1024px) {
+    header {
+        height: 380px;
+    }
+
+    .header__promo, .header__nomeLoja {
+        height: 40px;
+    }
+
+    .header__banner {
+        height: 300px;
+    }
+
+    .header__promo p {
+        font-size: 15px;
+    }
+
+    .header__nomeLoja h3 {
+        font-size: 22px;
+    }
+
+    .header__banner h2 {
+        padding-left: 70px;
+        padding-top: 95px;
+    
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .header__banner p {
+        max-width: 480px;
+    
+        padding-left: 70px;
+    
+        font-size: 16px;
+        line-height: 30px;
+    }
+}

@@ -53,7 +53,7 @@ main p {
 }
 
 main li div {
-    width: 350px;
+    width: 250px;
     height: 150px;
 }
 
@@ -111,4 +111,39 @@ main li div {
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+}
+
+@media (max-width: 1024px) {
+    main {
+        height: 1095px;
+    }
+
+    .main__catalogo {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    main h2 {
+        padding-top: 48px;
+        font-size: 30px;
+    }
+    
+    main p {
+        font-size: 16px;
+    }
+
+    .main__catalogo ul {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px 32px;
+    }
+
+    .main__catalogo li {
+        width: 250px;
+        height: 252px;
+    }
+
+    main li div {
+        width: 200px;
+        height: 120px;
+    }
 }
