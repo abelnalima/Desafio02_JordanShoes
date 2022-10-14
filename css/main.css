@@ -147,3 +147,38 @@ main li div {
         height: 120px;
     }
 }
+
+@media (max-width: 768px) {
+    main {
+        height: 500px;
+    }
+
+    .main__catalogo {
+        padding-top: 28px;
+        padding-bottom: 40px;
+    }
+
+    main h2 {
+        padding-top: 38px;
+        font-size: 28px;
+    }
+    
+    main p {
+        font-size: 14px;
+    }
+
+    .main__catalogo ul {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px 14px;
+    }
+
+    .main__catalogo li {
+        width: 200px;
+        height: 202px;
+    }
+
+    main li div {
+        width: 150px;
+        height: 100px;
+    }
+}
