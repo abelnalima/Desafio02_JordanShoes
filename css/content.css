@@ -26,3 +26,9 @@ body {
         height: 3460px;
     }
 }
+
+@media (max-width: 320px) {
+    body {
+        height: 2500px;
+    }
+}
